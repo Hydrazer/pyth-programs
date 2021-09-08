@@ -8,9 +8,9 @@ translate
   concatenate
     rotate-left
       alphabet
-    3
+    2
 
     rotate-left
       upper alphabet 1
     sep
-    3
+    2
