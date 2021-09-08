@@ -1,0 +1,13 @@
+translate 
+  take-str-input 
+                concatenate
+                  alphabet
+                  upper alphabet 1
+                                  concatenate
+                                    rotate-left
+                                      alphabet
+                                    3
+                                    rotate-left
+                                      upper alphabet 1
+                                    sep
+                                    3
