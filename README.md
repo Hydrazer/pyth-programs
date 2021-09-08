@@ -1,2 +1,2 @@
 # pyth-programs
-a short collection of some cool pyth programs
+a small collection of some cool pyth programs
