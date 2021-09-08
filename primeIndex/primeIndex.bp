@@ -4,7 +4,11 @@ assign
   maxima-var
   string-literal 0 . string-literal
 
-for short-for-var range 2 power 5 sep 6
+for
+  short-for-var
+  range
+    2
+    power 5 sep 6
   if is-prime negate short-for-var
     assign concatenate
       maxima-var
