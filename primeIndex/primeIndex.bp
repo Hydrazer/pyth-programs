@@ -1,0 +1,17 @@
+implicit-input
+
+assign
+  maxima-var
+  string-literal 0 . string-literal
+
+for short-for-var range 2 power 5 6
+  if is-prime negate short-for-var
+    assign concatenate
+      maxima-var
+      short-for-var
+end-everything
+
+slice
+  maxima-var
+  input
+  head input
