@@ -11,4 +11,4 @@ with open(r"zz_makeProgram\z_big-pyth.txt", "r") as file:
 
 
 clipboard.copy("\n".join(bigContents))
-print("********************************\nDONE\nDONE\nDONE\n********************************")
+print("********************************\nDONE\n********************************")
