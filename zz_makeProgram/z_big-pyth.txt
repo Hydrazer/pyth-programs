@@ -1,0 +1,25 @@
+assign
+  alphabet-var
+  take-str-input
+
+assign
+  hash-table-var
+  chop-into-size-n
+    concatenate
+      take-str-input
+      literal-char !
+    1
+
+short-for
+  alphabet-var
+  print
+    ternary
+      equal
+        short-for-var
+        lookup
+          hash-table-var
+          0
+      pop-at
+        hash-table-var
+        0
+      str-start ~
