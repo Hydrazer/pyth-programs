@@ -383,6 +383,6 @@ def translate(big_pyth):
 
 if __name__ == "__main__":
     # big_pyth = "".join(sys.stdin.readlines())
-    with open("pythshrink.txt", "r") as file:
+    with open(r"zz_makeProgram\z_big-pyth.txt", "r") as file:
       big_pyth = file.read()
     print(translate(big_pyth))
