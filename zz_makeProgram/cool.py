@@ -11,7 +11,7 @@ r""":+"0."jkfP_TU^5 6QhQ"""
 # https://pyth.herokuapp.com/rev-doc.txt
 # https://pyth.readthedocs.io/en/latest/
 # https://tio.run/#pyth
-# https://github.com/isaacg1/pyth/blob/master/big-pyth.py
+# https://github.com/Hydrazer/pyth-programs/blob/main/zz_makeProgram/z_big-pyth.py
 
 # nothing below bruh
 
