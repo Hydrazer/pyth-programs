@@ -228,6 +228,7 @@ pyth_shrinker = {
   "powerset": "y",
   "subsets": "y",
   "double": "y",
+  "implicit-assign-str-input": "",
   "str-input": "z",
   "deduplicate": "{",
   "or": "|",
