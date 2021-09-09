@@ -2,7 +2,7 @@ code = \
 r""":+"0."jkfP_TU^5 6QhQ"""
 
 # code above
-# big-pyth version below
+# big-pyth / readable version below
 
 """
 
@@ -23,7 +23,7 @@ import io
 import cmd
 import traceback
 
-sys.argv = ["python3", "pyth.py", "-c", code]
+sys.argv = ["python3", "pyth.py", "-cd", code]
 
 
 class PythParseError(Exception):
