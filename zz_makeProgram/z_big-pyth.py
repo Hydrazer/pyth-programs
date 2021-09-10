@@ -83,7 +83,7 @@ pyth_shrinker = {
   "apply": "F",
   "for": "F",
   "alphabet-var": "G",
-  "hash-table-var": "H",
+  "dict-var": "H",
   "if": "I",
   "func-invariant": "I",
   "set-var1": "J",
@@ -387,4 +387,18 @@ if __name__ == "__main__":
     # big_pyth = "".join(sys.stdin.readlines())
     with open(r"zz_makeProgram\z_big-pyth.txt", "r") as file:
       big_pyth = file.read()
-    print(translate(big_pyth))
+    
+    translateText = translate(big_pyth)
+
+    print(translateText + "\n")
+
+    inputText = input("immediate copy? ")
+
+    if inputText and inputText.lower()[0] == "y":
+      with open(r"zz_makeProgram\cool.py", "r") as file:
+        bigContents = file.read().split("\n")
+
+      bigContents[1] = 'r"""' + translateText + '"""'
+
+      with open(r"zz_makeProgram\z_big-pyth.txt", "r") as file:
+        bigContents[7] = file.read()
