@@ -27,7 +27,7 @@ pyth_shrinker = {
   "repeat": "*",
   "cartesian-product": "*",
   "plus": "+",
-  "concatenate": "+",
+  "concat": "+",
   "append": "+",
   "prepend": "+",
   "union": "+",
