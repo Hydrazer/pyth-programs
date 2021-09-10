@@ -16,4 +16,4 @@ end-everything
 
 index-into
   maxima-var
-  input
+  implicit-input
