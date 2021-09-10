@@ -1,6 +1,6 @@
 import sys
 
-pyth_shrinker = {
+pythShrinker = {
   "println": "\n",
   "sep": " ",
   "no-print": " ",
@@ -375,20 +375,20 @@ pyth_shrinker = {
 }
 
 
-def translate(big_pyth):
+def translate(bigPyth):
     pyth = []
-    for token in big_pyth.split():
-        if token[0].isalpha() and token not in pyth_shrinker:
+    for token in bigPyth.split():
+        if token[0].isalpha() and token not in pythShrinker:
           print(f"""*** {token} is not a recognized token. Defaulting to literal "{token}\"""")
-        pyth.append(pyth_shrinker.get(token, token))
+        pyth.append(pythShrinker.get(token, token))
     return "".join(pyth)
 
 if __name__ == "__main__":
-    # big_pyth = "".join(sys.stdin.readlines())
+    # bigPyth = "".join(sys.stdin.readlines())
     with open(r"zz_makeProgram\z_big-pyth.txt", "r") as file:
-      big_pyth = file.read()
+      bigPyth = file.read()
     
-    translateText = translate(big_pyth)
+    translateText = translate(bigPyth)
 
     print(translateText + "\n")
 
