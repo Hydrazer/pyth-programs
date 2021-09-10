@@ -176,7 +176,7 @@ pyth_shrinker = {
   "to-base": "j",
   "join": "j",
   "join-on-newline": "j",
-  "empty-str": "k",
+  "empty-str-var": "k",
   "length": "l",
   "log-base-2": "l",
   "map": "m",
