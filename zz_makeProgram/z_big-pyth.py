@@ -1,4 +1,5 @@
 import sys
+import clipboard
 
 pythShrinker = {
   "println": "\n",
@@ -402,3 +403,5 @@ if __name__ == "__main__":
 
       with open(r"zz_makeProgram\z_big-pyth.txt", "r") as file:
         bigContents[7] = file.read()
+      
+      clipboard.copy("\n".join(bigContents).rstrip())
