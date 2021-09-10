@@ -2,7 +2,7 @@ code = \
 r""":+"0."jkfP_TU^5 6QhQ"""
 
 # code above
-# big-pyth / readable version below
+# big-pyth / readable version in doc-string below
 
 """
 
