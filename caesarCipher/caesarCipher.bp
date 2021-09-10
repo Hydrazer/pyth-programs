@@ -9,9 +9,9 @@ implicit-print
     concat
       rotate-left
         alphabet-var
-      2
+        2
 
       rotate-left
         upper alphabet-var 1
-      sep
-      2
+        sep
+        2
