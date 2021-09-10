@@ -1,19 +1,13 @@
 implicit-assign-input
 
-assign
-  maxima-var
-  str-start 0. str-end
-
-short-for
-  range
-    2
-    power 5 sep 6
-  if is-prime negate short-for-var
-    assign concat
-      maxima-var
-      short-for-var
-end-everything
-
-index-into
-  maxima-var
-  implicit-input
+implicit-print
+  index-into
+    concat
+      str-start 0. str-end
+      join
+        empty-str
+        filter
+          is-prime negate filter-var
+          unary-range
+            power 5 sep 6
+    implicit-input
