@@ -36,7 +36,7 @@ pyth_shrinker = {
   "minus": "-",
   "remove": "-",
   "remove-from-singleton": "-",
-  "integer-division": "/",
+  "int-div": "/",
   "count": "/",
   "slice": ":",
   "step-range": ":",
