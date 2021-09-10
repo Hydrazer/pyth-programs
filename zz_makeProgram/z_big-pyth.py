@@ -66,7 +66,7 @@ pythShrinker = {
   "is-proper-superset": ">",
   "ternary": "?",
   "if-then-else": "?",
-  "index-into": "@",
+  "index-at": "@",
   "lookup": "@",
   "intersection": "@",
   "root": "@",
@@ -402,6 +402,6 @@ if __name__ == "__main__":
       bigContents[1] = 'r"""' + translateText + '"""'
 
       with open(r"zz_makeProgram\z_big-pyth.txt", "r") as file:
-        bigContents[7] = file.read()
+        bigContents[7] = file.read().strip()
       
-      clipboard.copy("\n".join(bigContents).rstrip())
+      clipboard.copy("\n".join(bigContents))
