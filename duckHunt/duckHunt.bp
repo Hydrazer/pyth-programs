@@ -1,0 +1,21 @@
+implicit-assign-input
+
+assign
+  hash-table-var
+  times
+    list 0 end-args
+    take-input
+
+short-for
+  input
+  no-print
+    assign-at
+      take-input
+      hash-table-var
+      1
+end-everything
+
+implicit-print
+  count
+    hash-table-var
+    0
