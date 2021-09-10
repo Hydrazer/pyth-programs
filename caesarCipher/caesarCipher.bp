@@ -1,16 +1,16 @@
 translate 
   take-str-input
 
-  concatenate
-    alphabet
-    upper alphabet 1
+  concat
+    alphabet-var
+    upper alphabet-var 1
 
-  concatenate
+  concat
     rotate-left
-      alphabet
+      alphabet-var
     2
 
     rotate-left
-      upper alphabet 1
+      upper alphabet-var 1
     sep
     2

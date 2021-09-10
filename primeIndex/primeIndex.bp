@@ -1,21 +1,19 @@
-implicit-input
+implicit-assign-input
 
 assign
   maxima-var
-  string-literal 0 . string-literal
+  str-start 0. str-end
 
-for
-  short-for-var
+short-for
   range
     2
     power 5 sep 6
   if is-prime negate short-for-var
-    assign concatenate
+    assign concat
       maxima-var
       short-for-var
 end-everything
 
-slice
+index-into
   maxima-var
   input
-  head input
