@@ -1,7 +1,7 @@
 implicit-assign-input
 
 assign
-  hash-table-var
+  dict-var
   take-input
 
 implicit-print
@@ -10,14 +10,14 @@ implicit-print
     pair
       times
         int-div
-          hash-table-var
+          dict-var
           input
         input
 
       times
         int-div
           plus
-            hash-table-var
+            dict-var
             implicit-input
           implicit-input
         implicit-input
