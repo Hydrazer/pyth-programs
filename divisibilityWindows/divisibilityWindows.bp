@@ -1,0 +1,23 @@
+implicit-assign-input
+
+assign
+  hash-table-var
+  take-input
+
+implicit-print
+  join
+    space
+    pair
+      times
+        int-div
+          hash-table-var
+          input
+        input
+
+      times
+        int-div
+          plus
+            hash-table-var
+            implicit-input
+          implicit-input
+        implicit-input
