@@ -17,6 +17,21 @@ r""":+"0."jkfP_TU^5 6QhQ"""
 
 # nothing below bruh
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import sys
 import copy as c
 import io
