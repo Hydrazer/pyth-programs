@@ -3,13 +3,13 @@ implicit-assign-input
 assign
   empty-list-var
   times
-    list 0 end-args
+    singleton-list 0
     take-input
 
 short-for
   input
   no-print
-    assign-at
+    replace-at
       take-input
       empty-list-var
       1
