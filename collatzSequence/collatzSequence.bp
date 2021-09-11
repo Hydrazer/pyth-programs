@@ -4,9 +4,8 @@ implicit-assign
 
 while
   tail input
-  assign
-    auto-var
-    append
+  no-print
+    append-mutate
       auto-var
       assign
         input
