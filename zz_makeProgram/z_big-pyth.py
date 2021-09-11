@@ -192,19 +192,20 @@ pythShrinker = {
   "order-by-var2": "Y",
   "print": "p",
   "implicit-print": "",
+  "equals": "q",
   "equal": "q",
-  "lower": "r",
-  "upper": "r",
-  "swapcase": "r",
-  "title": "r",
-  "capitalize": "r",
-  "capitalize-words": "r",
-  "strip-whitespace": "r",
-  "split-eval": "r",
-  "rle": "r",
-  "run-len-encode": "r",
-  "run-len-string-decode": "r",
-  "run-len-pair-decode": "r",
+  "lower": "r", # 0
+  "upper": "r", # 1
+  "swapcase": "r", # 2
+  "title": "r", # 3
+  "capitalize": "r", # 4
+  "capitalize-words": "r", # 5
+  "strip-whitespace": "r", # 6
+  "split-eval": "r", # 7
+  "rle": "r", # 8
+  "run-len-encode": "r", # 8
+  "run-len-string-decode": "r", # 9
+  "run-len-pair-decode": "r", # 9
   "range": "r",
   "str-range": "r",
   "sum-strings": "s",
