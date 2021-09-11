@@ -1,17 +1,21 @@
+implicit-assign-input
+
+implicit-assign
+  auto-var
+  map
+    0
+    take-input
+
+short-for
+  input
+  no-print
+    replace-at
+      take-input
+      auto-var
+      1
+end-everything
+
 implicit-print
-  translate 
-    take-str-input
-
-    concat
-      alphabet-var
-      upper alphabet-var 1
-
-    concat
-      rotate-left
-        alphabet-var
-        2
-
-      rotate-left
-        upper alphabet-var 1
-        sep
-        2
+  count
+    auto-var
+    0

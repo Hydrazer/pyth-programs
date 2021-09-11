@@ -1,9 +1,9 @@
 implicit-assign-input
 
-assign
-  empty-list-var
-  times
-    singleton-list 0
+implicit-assign
+  auto-var
+  map
+    0
     take-input
 
 short-for
@@ -11,11 +11,11 @@ short-for
   no-print
     replace-at
       take-input
-      empty-list-var
+      auto-var
       1
 end-everything
 
 implicit-print
   count
-    empty-list-var
+    auto-var
     0
