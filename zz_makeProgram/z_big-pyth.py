@@ -320,8 +320,10 @@ pythShrinker = {
   "sleep": ".d",
   "dict": ".d",
   "enumerate-map": ".e",
-  "enumerate-map-var": "b",
   "enumerate-map-ind": "k",
+  "enumerate-map-var": "b",
+  "enumerate-map-ind2": "Y",
+  "enumerate-map-var2": "Z",
   "filter-first-n": ".f",
   "filter-first-n-var": "Z",
   "group-by": ".g",
@@ -404,5 +406,10 @@ if __name__ == "__main__":
 
       with open(r"zz_makeProgram\z_big-pyth.txt", "r") as file:
         bigContents[7] = file.read().strip()
+
+      bigContents = "\n".join(bigContents)
       
-      clipboard.copy("\n".join(bigContents))
+      clipboard.copy(bigContents)
+
+      with open(r"zz_makeProgram\lel.py", "w") as file:
+        file.write(bigContents)
