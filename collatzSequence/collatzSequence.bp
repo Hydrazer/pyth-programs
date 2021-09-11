@@ -1,0 +1,31 @@
+assign
+  empty-list-var
+  list input end-args
+
+while
+  greater-than
+    input
+    1
+  assign
+    empty-list-var
+    append
+      empty-list-var
+      assign
+        input
+        ternary
+          mod
+            input
+            2
+          head
+            times
+              3
+              input
+          int-div
+            input
+            2
+end-everything
+
+implicit-print
+  join
+    space
+    empty-list-var
