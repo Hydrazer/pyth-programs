@@ -1,13 +1,13 @@
-assign
-  empty-list-var
-  list input end-args
+implicit-assign
+  auto-var
+    singleton-list input
 
 while
   tail input
   assign
-    empty-list-var
+    auto-var
     append
-      empty-list-var
+      auto-var
       assign
         input
         ternary
@@ -26,4 +26,4 @@ end-everything
 implicit-print
   join
     space
-    empty-list-var
+    auto-var
