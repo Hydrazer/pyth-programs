@@ -2,7 +2,7 @@ assign
   alphabet-var
   take-str-input
 
-assign
+assignawerawer
   hash-table-var
   chop-into-size-n
     concatenate
