@@ -3,9 +3,7 @@ assign
   list input end-args
 
 while
-  greater-than
-    input
-    1
+  tail input
   assign
     empty-list-var
     append
