@@ -83,6 +83,8 @@ pythShrinker = {
   "func-fold": "F",
   "apply": "F",
   "for": "F",
+  "assign-pair-var1": "G",
+  "assign-pair-var2": "H",
   "alphabet-var": "G",
   "dict-var": "H",
   "if": "I",
