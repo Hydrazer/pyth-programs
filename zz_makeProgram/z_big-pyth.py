@@ -2,7 +2,7 @@ import sys
 import clipboard
 
 pythShrinker = {
-  "println": "\n",
+  "println": "\\n",
   "sep": " ",
   "no-print": " ",
   "not": "!",
@@ -96,8 +96,11 @@ pythShrinker = {
   "var1": "J",
   "set-var2": "J",
   "var2": "J",
+  "def-lambda": "L",
   "def-func1": "L",
+  "call-lambda": "y",
   "func1": "y",
+  "lambda-var": "b",
   "func1-var": "b",
   "func-left-map": "L",
   "func-map": "M",
@@ -119,6 +122,7 @@ pythShrinker = {
   "input": "Q",
   "implicit-assign-input": "",
   "implicit-input": "",
+  "implicit-return": "",
   "return": "R",
   "func-right-map": "R",
   "sort": "S",
