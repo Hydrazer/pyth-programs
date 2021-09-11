@@ -1,25 +1,17 @@
-assign
-  alphabet-var
-  take-str-input
+implicit-print
+  translate 
+    take-str-input
 
-assignawerawer
-  hash-table-var
-  chop-into-size-n
-    concatenate
-      take-str-input
-      literal-char !
-    1
+    concat
+      alphabet-var
+      upper alphabet-var 1
 
-short-for
-  alphabet-var
-  print
-    ternary
-      equal
-        short-for-var
-        lookup
-          hash-table-var
-          0
-      pop-at
-        hash-table-var
-        0
-      str-start ~
+    concat
+      rotate-left
+        alphabet-var
+        2
+
+      rotate-left
+        upper alphabet-var 1
+        sep
+        2
