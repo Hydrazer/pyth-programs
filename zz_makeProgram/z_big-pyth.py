@@ -44,10 +44,11 @@ pythShrinker = {
   "assign-at-indices": ":",
   "sub": ":",
   "regex-sub": ":",
-  "regex-search": ":",
-  "regex-sub-group": ":",
-  "regex-split": ":",
-  "regex-matches-and-groups": ":",
+  "regex-search-bool": ":", # 0
+  "regex-search": ":", # 1
+  "regex-sub-group": ":", # 2
+  "regex-split": ":", # 3
+  "regex-matches-and-groups": ":", # 4
   "end-everything": ";",
   "innermost-var": ";",
   "implicit-innermost-var": "",
@@ -74,6 +75,8 @@ pythShrinker = {
   "break": "B",
   "bifurcate": "B",
   "char": "C",
+  "chr": "C",
+  "ord": "C",
   "conjugate": "C",
   "transpose": "C",
   "def": "D",
